@@ -2,15 +2,15 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": "frontend-new/dist",
-  "installCommand": "npm install --prefix frontend-new",
+  "installCommand": "npm install --prefix frontend-new && npm install --prefix backend",
   "rewrites": [
     {
       "source": "/api/v1/:path*",
-      "destination": "/backend/src/index.js"
+      "destination": "/api"
     },
     {
       "source": "/api/:path*",
-      "destination": "/backend/src/index.js"
+      "destination": "/api"
     },
     {
       "source": "/((?!api/).*)",
@@ -18,7 +18,7 @@
     }
   ],
   "functions": {
-    "backend/src/index.js": {
+    "api/index.js": {
       "memory": 1024,
       "maxDuration": 30
     }
