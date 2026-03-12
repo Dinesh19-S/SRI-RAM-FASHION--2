@@ -3,6 +3,11 @@ node_modules/
 .pnp/
 .pnp.js
 
+# Environment files — NEVER commit secrets
+.env
+.env.local
+backend/.env
+
 # Build outputs
 dist/
 build/
