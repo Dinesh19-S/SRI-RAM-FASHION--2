@@ -1,0 +1,41 @@
+# Render configuration for Sri Ram Fashions App
+services:
+  # Backend API Service
+  - type: web
+    name: sri-ram-fashion
+    runtime: node
+    region: singapore
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: FRONTEND_URL
+        value: https://sri-ram-fashions.onrender.com
+
+  # Frontend Static Site
+  - type: web
+    name: sri-ram-fashions
+    runtime: static
+    region: singapore
+    buildCommand: cd frontend-new && npm install && npm run build
+    staticPublishPath: frontend-new/dist
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NODE_VERSION
+        value: 18

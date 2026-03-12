@@ -1,0 +1,1743 @@
+pages: 58
+
+--- page 1 ---
+1 
+ 
+ 
+                                           CHAPTER 1  
+ 
+                                            INTRODUCTION  
+ 
+1.1 ABOUT THE PROJECT  
+ 
+                  A Budget Tracking System  is a project designed to help users 
+effectively manage their finances by tracking their income, expenses, and savings. It 
+offers an organized way to monitor spending habits, set financial goals, and gain insights 
+into overall financial health. The system typically includes key features such as user 
+authentication to ensure secure access, a dashboard to provide an overview of income and 
+expenses, and tools to categorize and analyze financial transactions. Users can set budget 
+goals, track progress, and rece ive alerts when they exceed spending limits.  
+Advanced functionalities, such as generating detailed reports, analyzing trends 
+with visual charts, and exporting financial data in various formats, enhance the system's 
+utility. For a user -friendly experience, the system can support both web and mobile 
+platforms, with modern design features.  
+The project can be built using technologies like React Native for the frontend, 
+Node.js for the backend, and databases like MongoDB. Additional enhancements may 
+include recu rring transaction management, AI -driven spending suggestions, and currency 
+conversion for international users. By integrating these features, the Budget Tracking 
+System becomes a comprehensive tool for financial planning and management.  
+ 
+ 
+ 
+ 
+ 
+
+--- page 2 ---
+2 
+ 
+ 
+1.2 E XISTING SYSTEM  
+                A Money Tracker System  is a digital solution designed to help individuals or 
+businesses manage their finances effectively. It allows users to record income and 
+expenses, categorize transactions, and analyze  their spending patterns. Advanced money 
+tracker systems may integrate with system typically includes features like budgeting 
+tools, financial goal tracking, and real -time insights into cash flow and provide detailed 
+financial reports. By offering a user -friendly interface and secure data storage, these 
+systems empower users to maintain financial discipline, make informed decisions, and 
+achieve their financial goals efficiently.  
+ 
+1.3 D RAWBACKS OF EXISTING SYSTEM  
+                   The following are some sig nificant disadvantages of the existing manual 
+system:  
+ Enhanced integrations with banks and payment platforms.  
+ Customizable categories and goals to suit individual preferences.  
+ Real-time data syncing for accurate and timely updates.  
+ Cross -platform accessibi lity with offline capabilities.  
+ Robust security features to build trust and ensure data privacy.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 3 ---
+3 
+ 
+ 
+1.4 P ROPOSED SYSTEM  
+                   The proposed  Money Tracker System  aims to overcome the limitations of existing 
+solutions by offering a user-friendly, customizable, and secure platform for managing personal or 
+business finances. It also provides detailed reports, spending insights, and visual charts, enabling 
+users to make informed financial decisions.  
+ 
+ADVANTAGES OF PROPOSED SYSTEM  
+The pr oposed system has following advantages:  
+ Customizable Categories  
+ Advanced Analytics and Reports  
+ Budget Management  
+ Financial Goal Setting  
+ Spending Alerts  
+ Offline Mode  
+ Scalability  
+ User-Friendly Interface . 
+ 
+ 
+       
+                                             
+ 
+ 
+                                                    
+ 
+                                                     
+ 
+
+--- page 4 ---
+4 
+ 
+       CHAPTER 2  
+                                   SYSTEM ANALYSIS  
+2.1 IDENTIFICATION OF NEED  
+                    The need for a Money Tracker System arises from the increasing 
+challenges individuals and businesses face in managing their finances effectively. 
+Financial mismanagement is a common issue, with many struggling to maintain accurate 
+records of income and expenses. This often leads to a lack of awareness of spending 
+patterns, making it difficult to identify unnecessary expenses or trends in overspending. 
+Traditional methods like spreadsheets or notebooks are time -consuming, error -prone, and 
+lack the real -time capabilities required for acc urate financial tracking . 
+Additionally, creating and adhering to budgets is a challenge without proper tools 
+to allocate funds and monitor progress effectively. Many users also lack the means to set 
+and achieve financial goals, such as saving for emergenci es or planning for future 
+investments. Existing tools often fall short in providing advanced insights, such as cash 
+flow forecasting or category -specific analysis, leaving users with limited understanding 
+of their financial health.  
+Security is another crit ical concern, as users are hesitant to trust systems that do 
+not prioritize data protection. Moreover, families, roommates, or business partners often 
+face difficulties managing shared finances due to the lack of collaborative features in 
+current solutions . Accessibility issues, such as platform dependency or lack of offline 
+functionality, further limit the usability of existing tools.  
+Given these challenges, there is a clear need for a secure, user -friendly, and 
+feature -rich Money Tracker System that provi des real -time tracking, advanced analytics, 
+budgeting tools, financial goal tracking, and collaborative capabilities. Such a system can 
+empower users to take control of their finances, make informed decisions, and achieve 
+their financial goals efficiently.  
+ 
+ 
+
+--- page 5 ---
+5 
+ 
+2.2 FEASIBILITY STUDY  
+                 A feasibility study assesses the viability of a proposed project, ensuring that it 
+is practical, achievable, and likely to succeed. In the case of an Budget Tracking System, 
+this study analyzes several key factors such as technical feasibility, economic viability, 
+operational feasibility, and legal considerations. Below is an outline of these factors as 
+they relate to this system:  
+ Technical Feasibility  
+ Economic Feasibility  
+ Operational Feasibility  
+ Legal and Regulator y Feasibility  
+ Social Feasibility.  
+ 
+2.2.1 ECONOMIC FEASIBILITY  
+   Development Costs : The use of open -source frameworks and tools minimizes 
+software development costs.  
+ Market Demand : The increasing need for financial management tools among 
+individuals and businesses ensures a strong market demand, justifying the 
+investment.  
+ Maintenance : With efficient initial design, ongoing maintenance costs can be 
+kept low.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 6 ---
+6 
+ 
+2.2.2 OPERATIONAL FEASIBILITY  
+ User Adoption : A user -friendly interface and value -added featur es like 
+automation, analytics, and alerts make the system appealing and easy to adopt for 
+non-technical users.  
+ Support and Updates : Regular updates and a robust support system can ensure 
+smooth operation and user satisfaction.  
+ Cross -Platform Compatibility : Providing access on multiple devices enhances 
+operational ease, catering to diverse user preferences.  
+ 
+2.2.3 TECHNICAL FEASIBILITY  
+  Availability of Tools and Technology : The project can be developed using 
+readily available technologies such as React for the frontend, Node.js for the 
+backend, and MongoDB for database management. Integration with APIs for bank 
+account synchronization is also achievable.  
+ Scalability : The system can be designed with modular architecture, ensuring 
+scalability for future enhanc ements.  
+ Security Measures : Implementation of secure encryption protocols and 
+authentication mechanisms is technically viable to protect user data.  
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 7 ---
+7 
+ 
+2.3 S OFTWARE REQUIREMENTS SPECIFICATION  
+                        System requirements is a statement that identifies the functionality that is 
+needed by a system in order to satisfy the customer's requirements. System requirements 
+are the most efficient way to address user needs while lowering implementation costs.  
+2.3.1 Hardware Requirements  
+                   The hardware requirements are defined to ensure the optimal performance of 
+the Accord system, keeping in mind factors such as processing speed, memory, storage 
+capacity, and communication efficiency. Below are the minimum hardware specifications 
+for the system:  
+                   Operating System             :  Android OS  
+       RAM                    :  8 GB  
+       ROM                :  8 GB  
+2.3.2 Software Requirements  
+                      The software stack has been chosen based on the need for a robust, scalable, 
+and secure system architecture. The Accord system requires a combination of front -end 
+technologies for a responsive user interface, a reliable back -end framework for business 
+logic, and a secure and flexible database to store user and req uest data.  
+ 
+  Operating System  : Windows 10 and above.  
+                        Environment   : Visual Studio code  
+        Frontend   : HTML, CSS  
+                        Scripting language  : JA VASCRIPT (REACT NA TIVE)  
+                        Backend   : NodeJs  With Express Js  
+  Database   : Supabase   
+ 
+ 
+
+--- page 8 ---
+8 
+ 
+FRONT END  
+                   The frontend  of the Accord project provides the user interface where 
+students, faculty, and administrative staff interact with the system. The following 
+technologies are used for front -end development:  
+ Frontend:  React Native is an open -source framework developed by Me ta for 
+building mobile applications using JavaScript and React, enabling cross -platform 
+compatibility for iOS and Android with a single codebase. It allows developers to 
+create fast, native -like user interfaces while leveraging reusable components and 
+efficient performance.  
+ React Native  Stylesheet  is used to define and organize styles for components in 
+a structured and efficient way. It allows developers to predefine styles using a 
+method that ensures performance optimization by minimizing recalculations 
+during rendering. Styles are written as JavaScript objects with properties 
+resembling CSS, enabling a consistent and maintainable styling approach. This 
+helps in creating a clear separation of concerns, making it easier to manage and 
+reuse styles across di fferent components in the application.  
+ 
+BACKEND  
+                   The backend  of the Money Tracker  system processes requests, manages data 
+storage, and implements business logic. The following technologies are used for backend 
+development:  
+ Node.js : A JavaScript runtime environment that allows the backend to be built 
+using JavaScript. Node.js handles HTTP requests, session management, and 
+integrates with the database.  
+ 
+ 
+ 
+ 
+
+--- page 9 ---
+9 
+ 
+DATABASE  
+                    The database  stores data related to user accounts, requests, approvals, and 
+related documents. The following database technology is used:  
+ Supabase : Supabase is an open -source backend -as-a-service (BaaS) platform that 
+provides a powerful and scalable alternative to Fir ebase. It offers features like a 
+PostgreSQL database, authentication, real -time subscriptions, and RESTful APIs, 
+enabling developers to build modern applications with ease.  
+ 
+ADDITIONAL TOOLS AND SERVICES  
+The following tools and services are required for the efficient development and 
+deployment of the Accord system:  
+ Visual Studio Code (VS Code) : A lightweight, powerful code editor used for 
+developing both front -end and back -end code. It includes features like syntax 
+highlighting, debugging, version control  integration, and extensions for a 
+streamlined development process.  
+VS Code supports multiple programming languages and frameworks, 
+making it ideal for diverse development tasks. Features like the integrated 
+terminal, live share for collaboration, and a ro bust search functionality enhance 
+productivity. Its cross -platform compatibility and active community support make 
+it a go -to choice for modern software development.  
+ 
+ 
+  
+ 
+ 
+ 
+
+--- page 10 ---
+10 
+ 
+               CHAPTER 3  
+                                 SYSTEM DESIGN  
+ 
+3.1 Input Design  
+ The input design for the Budget Tracker ensures seamless data entry, focusing 
+on simplicity, accuracy, and a user -friendly interface.  
+ 
+ 
+Figure  3.1 Input Design  
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 11 ---
+11 
+ 
+3.2 Output Design  
+ The output design for the Budget Tracker presents clear, organized financial 
+summaries, enabling users to easily analyze and track expenses  
+ 
+ 
+Figure 3.2 Output Design  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 12 ---
+12 
+ 
+3.3 MODULE DES IGN  
+                        A module description provides comprehensive details about each core 
+component of the  Project. The system is divided into several modules to manage and 
+automate leave and on -duty (OD) requests efficiently. Each module ensures that the 
+income , Expenses , and  tracking processes are streamlined for all users . 
+The project consists of the following modules:   
+ Homepage  
+ Login  
+ Registration  
+ Income and Expenses  
+ History of Income and Expense  
+ 
+Homepage  
+The homepage serves as the central hub for the Money Tracker App, providing 
+users with an overview of their financial status. Key features include a dashboard 
+displaying total income, expenses, and current balance, along with quick links to other 
+modules like adding transactions, viewing history, and accessing settings. It ensures 
+users have a clear snapshot of their financial health immediately upon logging in.  
+ 
+Login  
+The login module secures access to the app by requiring users to authenticate with 
+their credentials, such as an email and password or third -party options like Google or 
+Facebook. This ensures data security and personalized access to user -specific financial 
+information.  
+ 
+ 
+ 
+
+--- page 13 ---
+13 
+ 
+Registration  
+The registration module allows new users to create an account by entering details 
+like name, email, and password. It may also include optional fields such as monthly 
+budget or financial goals, enabling a tailored experience from the start. This module 
+ensures a seamless onboarding process for new users.  
+ 
+Income and Expenses  
+This module enables users to record and categorize their financial transactions. 
+Users can log sources of income and expenses with details like amount, category, date, 
+and notes. It provides a structured way to keep track of cash flow and supports effective 
+budgeting.  
+ 
+History of Income and Expense  
+The his tory module provides a detailed log of all past financial transactions, 
+categorized by income and expenses. Users can filter records by date, category, or amount 
+to analyze spending patterns and income trends over time. This module helps users review 
+their financial behavior and make informed adjustments to achieve their goals.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 14 ---
+14 
+ 
+3.4 DATA MODELS   
+                     The Data Flow Diagram provides information about the inputs and outputs 
+of each entity and process itself.  
+ 
+LEVEL 0 : 
+ 
+ 
+                                                              
+ 
+ 
+                                                      Figure 3. 3 Level 0  DFD  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 15 ---
+15 
+ 
+ 
+DFD LEVEL 1  
+ 
+ 
+  
+ 
+                                                   Figure 3. 4 Level 1  DFD  
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 16 ---
+16 
+ 
+ENTITY RELATIONSHIP DIAGRAM (ER DIAGRAM)  
+ 
+ 
+ 
+ 
+Figure 3.5 . Entity Relationship Diagram  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 17 ---
+17 
+ 
+3.4.1 DATABASE DESIGN  
+Database design is the systematic organization of data to align with a database 
+model. The process involves identifying the data to be stored and defining the 
+relationships between data elements. For the Budget Tracker System , Supabase  is used 
+as the datab ase, leveraging its powerful PostgreSQL backend to provide a scalable and 
+reliable solution for managing financial data efficiently. The database design ensures 
+seamless storage, retrieval, and management of data, enabling a robust backend to support 
+the s ystem's functionality.  
+In the Budget Tracker System, the database design focuses on creating a logical 
+schema to store data related to users, income, expenses, transaction history, and 
+budget goals . Supabase's relational database structure, along with its support for 
+advanced queries, authentication, and real -time updates, makes it highly effective for 
+tracking and analyzing financial transactions. The system leverages Supabase's flexibility 
+to create structured tables and relationships, ensuring efficient data organization, secure 
+user authentication, and fast data access.  
+. 
+Database Integration  
+Database integration in the Budget Tracker System involves unifying multiple 
+data tables to enhance efficiency and streamline financial management. Tables are creat ed 
+for various entities such as user profiles, income entries, expense records, transaction 
+histories, and budget goals . This integration enables the system to comprehensively 
+manage and analyze financial data, facilitating real -time updates and ensuring a  smooth 
+user experience for all individuals and entities tracking their budgets.  
+Supabase's relational database capabilities , real -time subscriptions, and 
+advanced query features allow the system to perform efficient data retrieval and analysis. 
+The integration ensures accurate insights into spending patterns, income trends, and 
+progress toward financial goals, empowering users to make informed decisions and 
+achieve better financial discipline.  
+ 
+ 
+
+--- page 18 ---
+18 
+ 
+Data Independence  
+Data independence is a core feature o f the Budget Tracker System, ensuring that 
+modifications in the database do not disrupt its functionality. With Supabase  and its 
+PostgreSQL backend, the system benefits from a well -defined relational structure while 
+maintaining flexibility in managing fina ncial data, allowing changes to the database 
+schema without requiring significant adjustments to the application logic.  
+ Physical Data Independence : The underlying storage mechanisms, such as 
+indexing and optimization of tables, can be adjusted or modified without affecting 
+the user experience or functionality of the app. Users will continue to interact with 
+the system seamlessly, regardless of the changes made to the physical storage.  
+ Logical Data Independence : The system ’s schema can be updated, such as 
+adding new fields (e.g., additional categories for income or expenses) or 
+modifying relationships between data tables (e.g., linking users to custom 
+financial goals), without disrupting the workflow or existing features of the 
+application.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 19 ---
+19 
+ 
+ 
+Data Security  
+Data security is a fundamental consideration in the Accord System to protect sensitive 
+information and maintain privacy. MongoDB offers robust security features, including:  
+1. Encryption : Data is encrypted both at rest and in transit to safeguard sen sitive 
+information, such as personal details and request data.  
+2. Access Controls : Role -based access control (RBAC) is implemented to ensure 
+that users can only access data relevant to their roles. For instance, a student can 
+view only their requests, while H ODs and caretakers have broader access as per 
+their responsibilities.  
+3. Authentication Mechanisms : Secure authentication protocols, such as SCRAM 
+(Salted Challenge Response Authentication Mechanism), are employed to verify 
+users.  
+4. Monitoring and Audits : Regul ar monitoring and security audits are conducted to 
+identify vulnerabilities and strengthen defenses.  
+By prioritizing security, the Accord System guarantees that all data is handled 
+confidentially and safely, fostering trust and ensuring a secure environmen t for 
+managing leave and on -duty requests within the institution.  
+                                              
+                                           
+ 
+ 
+ 
+ 
+ 
+
+--- page 20 ---
+20 
+ 
+      CHAPTER 4  
+                                     IMPLEMENTATION  
+ 
+4.1 SYSTEM IMPLEMENTATION  
+ 
+                   The code description provides a summary of the structure and functionality 
+of the written code, offering clarity on its purpose and design. In the Budget Tracker 
+System , React Native  is used for building an interactive and dynamic mobile  interface, 
+ensuring a seamless experience across both iOS and Android platforms. The UI 
+components are styled using ReactNative  StyleSheet , a utility -first framework that 
+allows for efficient, responsive, and visually appealing designs with minimal effort , 
+utilizing pre -defined utility classes for rapid development.  
+For backend operations, Node.js  are employed to provide a robust and efficient 
+server -side environment, handling user requests and ensuring smooth API operations. The 
+database is powered by Supabase , a scalable and reliable backend -as-a-service (BaaS) 
+that uses, providing a relational structure for storing financial data securely and 
+efficiently.  
+This technology stack ensures a modern, scalable, and maintainable application 
+development process. Comments within the codebase are included to clarify the 
+developer ’s intent, avoid redundancy, and improve long -term maintainability. This 
+approach ensures smooth integration with third -party tools and services, enabling future 
+updates and feature addition s. 
+ 
+ 
+ 
+ 
+ 
+
+--- page 21 ---
+21 
+ 
+4.2 STANDAR DIZATION OF THE CODING  
+ 
+                       Coding standards are crucial for ensuring consistency, readability, and 
+maintainability within the codebase. The development of the Budget Tracker System  
+adhered to best practices such as consistent naming conventions, where variables, 
+functions, and components were named descriptively to clearly convey their purpose. The 
+project followed standardized formatting rules with consistent indentation, spacing, and 
+organization of code, ensuring a uniform and clean codebase.  
+The use of React Native Style Sheet  is used to define and organize styles for 
+components in a structured and efficient way. It allows developers to predefine styles 
+using a method that ensures  performance optimization by minimizing recalculations 
+during rendering. Styles are written as JavaScript objects with properties resembling CSS, 
+enabling a consistent and maintainable styling approach. This helps in creating a clear 
+separation of concerns , making it easier to manage and reuse styles across different 
+components in the application.  
+The application was designed with modular components to ensure reusability, 
+ease of maintenance, and scalability. These components allow for easy updates and 
+feature expansions. These coding practices resulted in a professional, scalable, and easily 
+debuggable codebase, aligning with modern development standards and ensuring a 
+smooth development process for the future.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 22 ---
+22 
+ 
+4.3 ERROR HANDLING  
+                         Error handling is a critical part of the Budget Tracker System  to ensure 
+that the application runs smoothly and provides a seamless experience for users. The 
+system employs robust error handling strategies both on the frontend and backend to 
+catch, manage, and display errors in a user -friendly manner.  
+ 
+1. FrontEnd : 
+On the frontend, error handling is integrated within the user interface to manage 
+potential issues such as invalid input, network failures, or authentication errors. 
+For exa mple:  
+o Form Validation : User inputs such as income or expense amounts are 
+validated to ensure they are in the correct format and fall within acceptable 
+ranges. Error messages are shown directly on the form if the user enters 
+invalid data (e.g., non -numeric characters).  
+o Network Errors : In case of network failures while fetching or sending 
+data, users receive a clear error message, informing them of the issue and 
+prompting them to retry.  
+o Authentication Errors : If login or sign -up fails (due to incorrect 
+creden tials or network issues), users are notified with an appropriate 
+message guiding them to correct the issue.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 23 ---
+23 
+ 
+2. Backend : 
+On the backend, error handling is crucial for managing issues related to data 
+retrieval, user requests, and API calls. The system use s: 
+o Try-Catch Blocks : For asynchronous operations such as database queries, 
+try-catch blocks are used to catch errors and respond with meaningful 
+messages.  
+o HTTP Status Codes : The backend uses appropriate HTTP status codes 
+(e.g., 400 for bad requests, 500 f or server errors) to communicate the type 
+of error to the frontend, allowing it to display relevant messages to the 
+user. 
+o Custom Error Handling Middleware : Express.js middleware is used to 
+catch any unhandled errors and respond with generic error messages,  
+ensuring that users are not exposed to internal system details. This 
+prevents the app from crashing and ensures a smooth user experience.  
+ 
+3. Database :  
+Error handling is also integrated at the database level to catch issues related to 
+database queries, such as failed insertions, updates, or invalid data entries. Supabase's 
+API will return clear error responses that the backend processes to notify users of  any 
+issues with their data, such as "Unable to add income entry due to invalid data."  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 24 ---
+24 
+ 
+      CHAPTER 5  
+                                 TESTING AND RESULTS  
+5.1 T ESTING  
+Once the source code for the Budget Tracker System  was finalized and 
+documented, the next phase was testing to ensure the system met user requirements and 
+functioned as expected. Testing is crucial to guarantee the product is reliable and user -
+friendly.  
+The testing process focused on individual components , followed by integration to 
+ensure everything worked cohesively. Unit tests checked components like income and 
+expense forms, ensuring correct data handling and calculations. Integration tests validated 
+frontend and backend interactions, including databas e connectivity with Supabase. 
+Validation tests ensured proper error handling and accurate processing of user inputs.  
+While the main goal was to demonstrate functionality, early -stage and continuous 
+testing were crucial in identifying bugs and maintaining s ystem stability, ensuring a 
+smooth user experience.  
+ 
+5.1.1 Unit Testing  
+Unit testing is a critical step in ensuring that individual components of the Budget 
+Tracker System function as expected. This process helps identify coding errors, logical 
+inconsistencies, or unexpected behavior within specific modules. For the system, un it 
+testing was focused on key functionalities like income and expense form submissions, 
+data validation, and budget goal calculations. These tests were designed to confirm that 
+the system correctly processes user inputs, validates data, and accurately calc ulates 
+financial details.  
+By conducting unit tests early in the development phase, the team was able to 
+identify and resolve errors before they impacted the overall system. This proactive 
+approach ensured that each component, such as tracking transactions or calculating 
+budgets, worked independently and correctly. The result was a more reliable and robust 
+
+--- page 25 ---
+25 
+ 
+Budget Tracker System, with individual components tested and refined for optimal 
+performance, leading to a seamless user experience  
+ 
+Example Test Case 1:  
+Module: Income and Expense Form Submission  
+Test Type: Validation of required fields and form submission  
+Input: Income/Expense type (Income or Expense), amount, category, and date.  
+Output: Form submission is successful if all fields are correctly filled. If  a field is missing 
+or incorrectly formatted, the system should display an error message.  
+Sample Test Output:  
+ 
+ If all fields are correctly filled: "Transaction submitted successfully."  
+ If any required field is missing: "Please fill out all required fields. " 
+ If the amount is not a valid number: "Please enter a valid amount."  
+Analysis:  
+This test case ensures that all required fields are validated before the form is 
+submitted. If the user forgets to fill in a required field, such as the category or enters an 
+invalid amount, the system catches the error and prompts the user to complete the form. 
+This step is crucial in preventing incomplete or incorrect data from being submitted.  
+Unit tests for the Income and Expense Form Submission module focus on:  
+ Correct dat a types: Ensuring that the amount is a valid number and the date is in 
+the correct format.  
+ Required fields validation: Checking that all necessary fields are completed, 
+particularly for both income and expense types.  
+ Error handling: Ensuring that when a us er makes an error (e.g., leaving a required 
+field empty or entering an invalid amount), the system provides clear error 
+messages.  
+
+--- page 26 ---
+26 
+ 
+These tests are run during the development phase to ensure that the form behaves as 
+expected under different scenarios, such a s: 
+ Submitting a complete income or expense entry with all valid fields.  
+ Submitting a transaction without a required field (e.g., category or amount).  
+ Submitting a request with incorrect data (e.g., a negative amount or invalid date).  
+By catching errors early in the development process, the Budget Tracker System ensures 
+that the system is user -friendly and that data integrity is maintained.  
+ 
+5.1.2 Integration Testing  
+Integration testing follows unit testing and focuses on validating whether 
+individual com ponents, which have passed unit tests, work together seamlessly as a 
+cohesive system. In the Budget Tracker System, integration testing ensured that the 
+frontend, backend, and database interacted correctly, providing a smooth user experience.  
+     For exam ple, when a user submits an income or expense entry through the React 
+frontend, the data must be processed by the Node.js backend and stored in the Supabase 
+database. Integration testing ensured that:  
+ 
+ Data entered on the frontend was successfully transmit ted to the backend.  
+ The backend correctly validated the transaction details, checked for required 
+fields, and updated the database accordingly.  
+ Real-time updates to transaction records were displayed on the frontend.  
+ Users received appropriate notification s or error messages for successful or failed 
+submissions.  
+Integration tests were conducted by simulating real -world scenarios, such as:  
+ Multiple user roles (e.g., individual users, administrators) interacting with the 
+system and verifying their specific ac cess privileges.  
+
+--- page 27 ---
+27 
+ 
+ Transaction flow: Testing the process of submitting income/expense data, 
+updating records, and reflecting those updates in the user ’s history or balance.  
+ Data flow: Ensuring that data entered on one page (e.g., income/expense form 
+submissi on) was correctly processed and displayed on another page (e.g., history 
+page or balance tracker).  
+ 
+5.1.3 Validation Testing  
+Validation testing is a critical final step to ensure that the Budget Tracker System  
+meets the user's needs and performs its intended functions. This phase focuses on 
+verifying that the application fulfills the user ’s expectations and aligns with the original 
+project requirements.  
+In the Budget Tracker System , validation testing was condu cted to ensure that:  
+ The system accurately tracks and manages income and expense records.  
+ Real-time updates and changes to financial data are reflected in the user interface.  
+ Role-based access control functions properly, ensuring users can only view or 
+modify data relevant to their role.  
+ The system ’s user interface is intuitive, making it easy for users to navigate and 
+manage their budget.  
+ The overall performance, including data load times and responsiveness, meets the 
+deployment standards.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 28 ---
+28 
+ 
+Validation tests compared the final system behavior with the original project 
+requirements, focusing on:  
+ User acceptance : Ensuring that the system ’s features meet the expectations of 
+end-users (e.g., individual users and administrators).  
+ Compliance with re quirements : Verifying that all functional and non -functional 
+requirements, such as tracking income/expenses, displaying financial summaries, 
+and data security, were fulfilled.  
+ 
+For example, tests focused on:  
+ Submitting and categorizing income and expense e ntries, ensuring that users 
+could input valid data (amounts, categories, and dates).  
+ Data updates:  Ensuring that after submitting a transaction, the balance and 
+history were accurately updated.  
+ Notification system:  Ensuring that users received timely alerts or notifications 
+for important updates (e.g., budget thresholds exceeded).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 29 ---
+29 
+ 
+CHAPTER 6  
+         CONCLUSION AND FUTURE ENHANCEMENTS  
+ 
+6.1 CONCLUSION  
+In conclusion, the Budget Tracker System  is designed to simplify and modernize 
+the way individuals or businesses manage their finances. By offering  user-friendly 
+platform, the system eliminates the inefficiencies of manual tracking and helps users 
+better manage their income and expenses. It empo wers users to easily input their financial 
+data, track their spending patterns, and receive real -time updates and notifications 
+regarding their financial goals.  
+It secure data handling and role -based access control, the Budget Tracker System  
+ensures that personal financial data is kept confidential and accessible only to authorized 
+users. The system helps improve financial discipline, promotes informed decision -
+making, and enhances user satisfaction. Ultimately, the Budget Tracker System  
+contributes to better financial management, reducing the complexity of budgeting, and 
+providing users with the tools they need to meet their financial goals.  
+ 
+6.2 FUTURE ENHANCEMENT  
+For future enhancements, the Budget Tracker System  aims to integrate AI, 
+provi ding users with advanced features for improved financial management. AI 
+integration could enable smart budgeting, personalized financial advice, automatic 
+categorization of expenses, and predictive analytics to forecast future spending patterns. 
+These adva ncements would enhance user experience, reduce manual data entry, and offer 
+more insights into their financial habits, making the application even more powerful and 
+intuitive.  
+ 
+ 
+
+--- page 30 ---
+30 
+ 
+APPENDICES  
+  
+A.SAMPLE CODING  
+ 
+_Layout.jsx  
+ 
+ 
+import React from "react";  
+import  { Tabs } from "expo -router";  
+import FontAwesome from "@expo/vector -icons/FontAwesome";  
+import MaterialCommunityIcons from "@expo/vector -
+icons/MaterialCommunityIcons";  
+import colors from "./../../utils/colors";  
+import { StatusBar } from "expo -status -bar";  
+  
+export default function TabLayout() {  
+  return (  
+    <> 
+      <StatusBar style="auto" />  
+      <Tabs  
+        screenOptions={{  
+          tabBarActiveTintColor: colors.SECONDARY,  
+          headerShown: false,  
+        }} 
+      > 
+        <Tabs.Screen  
+          name="index"  
+          options={{  
+            title: "Home",  
+            tabBarIcon: ({ color }) => (  
+              <FontAwesome size={28} name="home" color={color} />  
+            ), 
+
+--- page 31 ---
+31 
+ 
+          }} 
+        /> 
+        <Tabs.Screen  
+          name="bu dget"  
+          options={{  
+            title: "Budget",  
+            tabBarIcon: ({ color }) => (  
+              <MaterialCommunityIcons name="finance" size={28} color={color} 
+/> 
+            ), 
+          }} 
+        /> 
+        <Tabs.Screen  
+          name="pro file" 
+          options={{  
+            title: "Profile",  
+            tabBarIcon: ({ color }) => (  
+              <FontAwesome size={28} name="user" color={color} />  
+            ), 
+          }} 
+        /> 
+      </Tabs>  
+    </> 
+  ); 
+} 
+ 
+ 
+ 
+ 
+ 
+
+--- page 32 ---
+32 
+ 
+Budget.jsx  
+ 
+import { StyleSheet, View, ScrollView, RefreshControl } from "react -native";  
+import React, { useEffect, useState } from "react";  
+import { signOut } from "firebase/auth";  
+import { auth } from "./../../configs/FirebaseConfig.jsx";  
+import { Link, useRouter } from "expo -router";  
+import { supabase } from "../../utils/SupaBaseConfig";  
+import colors from "../../utils/colors";  
+import services from "../../utils/services";  
+  
+import Ionicons from "@expo/vector -icons/Ionicons";  
+  
+import CircularChart from "../../compon ents/CircularChart.jsx";  
+import CategoryList from "../../components/CategoryList.jsx";  
+import { SafeAreaView } from "react -native -safe-area-context";  
+  
+export default function Home() {  
+  const router = useRouter();  
+  const [categoryList, setcategoryList ] = useState();  
+  const [loading, setLoading] = useState(false);  
+  useEffect(() => {  
+    //checkUserAuth();  
+    getCategoryList();  
+  },[]);  
+  
+  const checkUserAuth = async () => {  
+    const result = await services.getData("login");  
+    if (result !== "true ") { 
+      router.replace("../../components/Login.jsx");  
+    } 
+  }; 
+  
+
+--- page 33 ---
+33 
+ 
+  const handleLogout = async () => {  
+    try { 
+      // Call Firebase's signOut function  
+      await signOut(auth);  
+  
+      // Perform additional cleanup or actions  
+      await services. storeData("login", "false"); // Storing the logged -out state  
+      const router = useRouter(); // Initialize the router  
+      router.replace("../../components/Login.jsx"); // Redirect to the login page  
+      console.log("User logged out successfully.");  
+    } catch (error) {  
+      console.error("Error logging out:", error.message);  
+    } 
+  }; 
+  
+  const getCategoryList = async () => {  
+    try { 
+      setLoading(true);  
+      const user = auth.currentUser;  
+      if (!user || !user.email) {  
+        console.error("User not authenticated or email missing");  
+        return;  
+      } 
+      const { data, error } = await supabase  
+        .from("category")  
+        .select("*,categoryItems(*)")  
+        .eq("created_by", user.email);  
+  
+      if (error) {  
+        console.error("Supabase error:", error.message);  
+        return;  
+      } 
+      console.log("Category Data:", data);  
+
+--- page 34 ---
+34 
+ 
+      setcategoryList(data);  
+      data && setLoading(false);  
+    } catch (error) {  
+      console.error("Error fetching category list:", error.message);  
+    } 
+  }; 
+  
+  return (  
+    <View style={{ flex: 1, position: "relative" }}>  
+      <ScrollView  
+        refreshControl={  
+          <RefreshControl  
+            onRefresh={() => getCategoryList()}  
+            refreshing={loading}  
+          /> 
+        } 
+      > 
+        <SafeAreaView backgroundColor={colors.PRIMARY}>  
+          <View style={styles.container}>{/* <Header /> */}</View>  
+        </SafeAreaView>  
+        <View  
+          style={{  
+            padding: 20,  
+            marginTop: -150, 
+          }} 
+        > 
+          <CircularChart categoryList={categoryList} />  
+          <CategoryList categoryList={categoryList} />  
+        </View>  
+      </ScrollView>  
+      <Link href={"/add -new-category"} style={styles.addBtnContainer}>  
+        <Ionicons n ame="add -circle -sharp" size={65} color={colors.PRIMARY} 
+/> 
+
+--- page 35 ---
+35 
+ 
+      </Link>  
+    </View>  
+  ); 
+} 
+  
+const styles = StyleSheet.create({  
+  container: {  
+    // marginTop: 20,  
+    padding: 25,  
+    backgroundColor: colors.PRIMARY,  
+    height: 200,  
+  }, 
+  addBtnContainer: {  
+    position: "absolute",  
+    bottom: 16,  
+    right: 16,  
+    zIndex: 10,  
+  }, 
+}); 
+  
+Index.jsx  
+ 
+ 
+import { View, Text, StyleSheet } from "react -native";  
+import React from "react";  
+import colors from "../../utils/colors";  
+import { SafeAreaV iew } from "react -native -safe-area-context";  
+import { Link, useRouter } from "expo -router";  
+import Header from "../../components/Header";  
+import MoneyStatus from "../../components/MoneyStatus";  
+import Ionicons from "@expo/vector -icons/Ionicons";  
+import SummaryChart from "../../components/SummaryChart";  
+import { ScrollView } from "react -native";  
+import IncomeExpenseList from "../../components/IncomeExpenseList";  
+
+--- page 36 ---
+36 
+ 
+  
+export default function index() {  
+  const router = useRouter();  
+  return (  
+    <ScrollView s tyle={styles.screen}>  
+      <SafeAreaView style={styles.safeArea}>  
+        <Header />  
+      </SafeAreaView>  
+      <View style={styles.container}>  
+        <MoneyStatus />  
+        {/* <SummaryChart/> */}  
+        <View style={styles.incomeExpenseContainer}>  
+          <IncomeExpenseList/>  
+        </View>  
+        <Link href={"/add -income -expense"} style={styles.addBtnContainer}>  
+          <Ionicons name="add -circle -sharp" size={65} color={colors.PRIMARY} 
+/> 
+        </Link>  
+      </View>  
+    </ScrollView>  
+  ); 
+} 
+  
+const styles = StyleSheet.create({  
+  screen: {  
+    flex: 1, // Ensures the root container takes up full screen height  
+    backgroundColor: colors.WHITE1, // Full -screen white background  
+  }, 
+  safeArea: {  
+    paddingHorizontal: 20,  
+    paddingVertical: 30, 
+    backgroundColor: colors.PRIMARY,  
+    borderBottomLeftRadius: 25,  
+
+--- page 37 ---
+37 
+ 
+    borderBottomRightRadius: 25,  
+    zIndex: 1,  
+  }, 
+  container: {  
+    flex: 1, // Ensures the container fills remaining space after SafeAreaView  
+    padding: 20,  
+    backgroundColor : colors.WHITE1, // Explicit white background  
+    borderTopLeftRadius: 25, // Optional: Match radius for visual consistency  
+    borderTopRightRadius: 25, // Optional: Match radius for visual consistency  
+  }, 
+  addBtnContainer: {  
+    position: "absolute",  
+    bottom: 16,  
+    right: 16,  
+    zIndex: 10,  
+  }, 
+  incomeExpenseContainer : {  
+    marginTop:30,  
+    // padding:5,  
+    // backgroundColor:"#FFF",  
+    // borderRadius:5  
+  } 
+}); 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 38 ---
+38 
+ 
+Profile.jsx  
+ 
+ 
+import React from 'react';  
+import {View, SafeAreaView, StyleSheet} from 'react -native';  
+import {  
+  Avatar,  
+  Title,  
+  Caption,  
+  Text,  
+  TouchableRipple,  
+} from 'react -native -paper';  
+import MaterialCommunityIcons from '@expo/vector -
+icons/MaterialCommunityIcons';  
+// import Share from 'react -native -share';  
+import files from './../../assets/filesBase64'  
+import colors from '../../utils/colors';  
+  
+export default function profile() {  
+  
+  const myCustomShare = async() => {  
+    const shareOptions = {  
+      message: 'Order your next meal from FoodFinder App. I \'ve already ordered 
+more than 10 meals on it.',  
+      url: files.appLogo,  
+      // urls: [files.image1, files.image2]  
+    } 
+  
+    try { 
+      const ShareResponse = await Share.open(shareOptions);  
+      console.log(JSON.stringify(ShareResp onse));  
+    } catch(error) {  
+      console.log('Error => ', error);  
+
+--- page 39 ---
+39 
+ 
+    } 
+  }; 
+  
+  return (  
+    <SafeAreaView style={styles.container}>  
+  
+      <View style={styles.userInfoSection}>  
+        <View style={{flexDirection: 'row', marginTop: 15}}>  
+          <Avatar.Image  
+            source={{  
+              uri: 'https://cdn.vectorstock.com/i/preview -1x/15/32/colorful -profile -
+picture -placeholder -icon-vector -42411532.jpg',  
+            }} 
+            size={80}  
+          /> 
+          <View style={{marginLeft: 20} }> 
+            <Title style={[styles.title, {  
+              marginTop:15,  
+              marginBottom: 5,  
+            }]}>John Doe</Title>  
+            <Caption style={styles.caption}>@j_doe</Caption>  
+          </View>  
+        </View>  
+      </View>  
+  
+      <View style={styles.userInfoSection}>  
+        <View style={styles.row}>  
+          <MaterialCommunityIcons name="map -marker -radius" color="#777777" 
+size={20}/>  
+          <Text style={{color:"#777777", marginLeft: 20}}>London, Earth</Text>  
+        </View>  
+        <View style={styles.row}>  
+          <MaterialCommunityIcons name="phone" color="#777777" size={20}/>  
+
+--- page 40 ---
+40 
+ 
+          <Text style={{color:"#777777", marginLeft: 20}}>+91 -
+900000009</Text>  
+        </View>  
+        <View style={styles.row}>  
+          <MaterialCommunityIcons name="email" color="#777777" size={20}/>  
+          <Text style={{color:"#777777", marginLeft: 
+20}}>john_doe@email.com</Text>  
+        </View>  
+      </View>  
+  
+      <View style={styles.menuWrapper}>  
+        <TouchableRipple onPress={()  => {}}>  
+          <View style={styles.menuItem}>  
+            <MaterialCommunityIcons name="heart -outline" 
+color={colors.PRIMARY} size={25}/>  
+            <Text style={styles.menuItemText}>Your Favorites</Text>  
+          </View>  
+        </TouchableRipple>  
+        <TouchableRipple onPress={myCustomShare}>  
+          <View style={styles.menuItem}>  
+            <MaterialCommunityIcons name="share -outline" 
+color={colors.PRIMARY} size={25}/>  
+            <Text style={styles.menuItemText}>Tell Your Friends</Text>  
+          </View>  
+        </TouchableRipple>  
+        <TouchableRipple onPress={() => {}}>  
+          <View style={styles.menuItem}>  
+            <MaterialCommunityIcons name="account -check -outline" 
+color={colors.PRIMARY} size={25}/>  
+            <Text style={sty les.menuItemText}>Support</Text>  
+          </View>  
+        </TouchableRipple>  
+      </View>  
+
+--- page 41 ---
+41 
+ 
+    </SafeAreaView>  
+  ); 
+}; 
+  
+const styles = StyleSheet.create({  
+  container: {  
+    flex: 1,  
+    marginTop:40  
+  }, 
+  userInfoSection: {  
+    paddingHorizontal: 30,  
+    marginBottom: 25,  
+  }, 
+  title: {  
+    fontSize: 24,  
+    fontWeight: 'bold',  
+  }, 
+  caption: {  
+    fontSize: 14,  
+    lineHeight: 14,  
+    fontWeight: '500',  
+  }, 
+  row: {  
+    flexDirection: 'row',  
+    marginBottom: 10,  
+  }, 
+  infoBoxWrapper: {  
+    border BottomColor: '#dddddd',  
+    borderBottomWidth: 1,  
+    borderTopColor: '#dddddd',  
+    borderTopWidth: 1,  
+    flexDirection: 'row',  
+    height: 100,  
+
+--- page 42 ---
+42 
+ 
+  }, 
+  infoBox: {  
+    width: '50%',  
+    alignItems: 'center',  
+    justifyContent: 'center',  
+  }, 
+  menuWrapper: {  
+    marginTop: 10,  
+  }, 
+  menuItem: {  
+    flexDirection: 'row',  
+    paddingVertical: 15,  
+    paddingHorizontal: 30,  
+  }, 
+  menuItemText: {  
+    color: '#777777',  
+    marginLeft: 20,  
+    fontWeight: '600',  
+    fontSize: 16,  
+    lineHeight: 26,  
+  }, 
+}); 
+  
+Sign -inàIndex.js  
+ 
+ 
+import {  
+  View,  
+  Text,  
+  TextInput,  
+  StyleSheet,  
+  TouchableOpacity,  
+  ToastAndroid,  
+
+--- page 43 ---
+43 
+ 
+} from "react -native";  
+import React, { useEffect, useState } from "react";  
+import { useNavigation, useRouter } from "expo -router";  
+import { Ionicons } from "@expo/vector -icons";  
+import { signInWithEmailAndPassword } from "firebase/auth";  
+import { auth } from "../../../configs/FirebaseConfig";  
+import colors from "../../../utils/colors";  
+  
+export default function SignIn() {  
+  const navi gation = useNavigation();  
+  const router = useRouter();  
+  
+  const [email, setEmail] = useState();  
+  const [password, setPassword] = useState();  
+  
+  useEffect(() => {  
+    navigation.setOptions({  
+      headerShown: false,  
+    }); 
+  }, []);  
+  
+  const onSignIn  = () => {  
+    if (!email || !password) {  
+      ToastAndroid.show("Please Enter Email & Password", 
+ToastAndroid.BOTTOM);  
+      return;  
+    } 
+  
+    if(!email.includes("@")) {  
+      ToastAndroid.show("Please enter a valid email", ToastAndroid.BOTTOM)  
+    } 
+  
+    signInWithEmailAndPassword(auth, email, password)  
+
+--- page 44 ---
+44 
+ 
+      .then((userCredential) => {  
+        // Signed in  
+        const user = userCredential.user;  
+        console.log(user);  
+        router.replace("/(tabs)");  
+        // ... 
+      }) 
+      .catch((erro r) => {  
+        const errorCode = error.code;  
+        const errorMessage = error.message;  
+        console.log(errorMessage, errorCode);  
+        if (errorCode == "auth/invalid -credential") {  
+          ToastAndroid.show("Invalid credentials", ToastAndroid.LO NG);  
+        } 
+      }); 
+  }; 
+  
+  return (  
+    <View  
+      style={{  
+        padding: 25,  
+        paddingTop: 40,  
+        backgroundColor: colors.WHITE1,  
+        height: "100%",  
+      }} 
+    > 
+      <TouchableOpacity onPress={() => router.back()}>  
+        <Ionicons name="arrow -back" size={24} color="black" />  
+      </TouchableOpacity>  
+      <Text  
+        style={{  
+          fontFamily: "Montserrat -bold",  
+          fontSize: 30,  
+
+--- page 45 ---
+45 
+ 
+          marginTop: 30,  
+        }} 
+      > 
+        Let's Sign You In  
+      </Text > 
+      <Text  
+        style={{  
+          fontFamily: "Montserrat",  
+          fontSize: 30,  
+          marginTop: 20,  
+          color: colors.WHITE2,  
+        }} 
+      > 
+        Welcome Back  
+      </Text>  
+      <Text  
+        style={{  
+          fontFamily: "Montserrat",  
+          fontSize: 30,  
+          color: colors.WHITE2,  
+          marginTop: 10,  
+        }} 
+      > 
+        You've been missed!  
+      </Text>  
+  
+      {/* Email */}  
+      <View  
+        style={{  
+          marginTop: 50,  
+        }} 
+      > 
+        <Text  
+
+--- page 46 ---
+46 
+ 
+          style={{  
+            fontFamily: "Montserrat",  
+          }} 
+        > 
+          Email  
+        </Text>  
+        <TextInput  
+          style={styles.input}  
+          placeholder="Enter Email"  
+          onChangeText={(value) => setEmail (value)}  
+        /> 
+      </View>  
+  
+      {/* Password */}  
+      <View  
+        style={{  
+          marginTop: 20,  
+        }} 
+      > 
+        <Text  
+          style={{  
+            fontFamily: "Montserrat",  
+          }} 
+        > 
+          Password  
+        </Text> 
+        <TextInput  
+          secureTextEntry={true}  
+          style={styles.input}  
+          placeholder="Enter Password"  
+          onChangeText={(value) => setPassword(value)}  
+        /> 
+      </View>  
+
+--- page 47 ---
+47 
+ 
+  
+      {/* Sign In Button */}  
+      <TouchableOpacity  
+        onPress={onSignIn}  
+        style={{  
+          padding: 20,  
+          backgroundColor: colors.PRIMARY,  
+          borderRadius: 15,  
+          marginTop: 50,  
+        }} 
+      > 
+        <Text  
+          style={{  
+            color: color s.WHITE1,  
+            textAlign: "center",  
+          }} 
+        > 
+          Sign In  
+        </Text>  
+      </TouchableOpacity>  
+  
+      {/* Create Account Button */}  
+      <TouchableOpacity  
+        onPress={() => router.replace("auth/sign -up")}  
+        style={{ 
+          padding: 20,  
+          backgroundColor: colors.WHITE1,  
+          borderRadius: 15,  
+          marginTop: 20,  
+          borderWidth: 1,  
+        }} 
+      > 
+        <Text  
+
+--- page 48 ---
+48 
+ 
+          style={{  
+            color: colors.PRIMARY,  
+            textAlign : "center",  
+          }} 
+        > 
+          Create Account  
+        </Text>  
+      </TouchableOpacity>  
+    </View>  
+  ); 
+} 
+  
+const styles = StyleSheet.create({  
+  input: {  
+    padding: 15,  
+    borderWidth: 1,  
+    borderRadius: 15,  
+    borderColor: colors.WHIT E2, 
+    fontFamily: "Montserrat",  
+  }, 
+}); 
+  
+Add-Income -expense.jsx  
+ 
+import { View, Text, TouchableOpacity, StyleSheet } from "react -native";  
+import React, { useState } from "react";  
+import colors from "../utils/colors";  
+import Income from "../components/Income";  
+import Expense from "../components/Expense";  
+  
+export default function addIncomeExpense() {  
+  const [selectedForm, setSelectedForm] = useState("expense");  
+  return (  
+    <View style={styles.container}>  
+
+--- page 49 ---
+49 
+ 
+      <View style={styles.btnC ontainer}>  
+        <TouchableOpacity  
+          style={styles.expenseBtn}  
+          onPress={() => setSelectedForm("expense")}  
+        > 
+          <Text style={styles.btnTxt}>Expense</Text>  
+        </TouchableOpacity>  
+        <TouchableOpacity  
+          style={styles.incomeBtn}  
+          onPress={() => setSelectedForm("income")}  
+        > 
+          <Text style={styles.btnTxt}>Income</Text>  
+        </TouchableOpacity>  
+      </View>  
+      {selectedForm == "expense" ? <Expense /> : <Income />}  
+    </View>  
+  ); 
+} 
+  
+const styles = StyleSheet.create({  
+  container: {  
+    display: "flex",  
+    flex: 1,  
+    padding: 20,  
+    backgroundColor: colors.WHITE1,  
+  }, 
+  btnContainer: {  
+    display: "flex",  
+    flexDirection: "row",  
+    justifyContent: "space -between",  
+    alignItems: "center",  
+    gap: 20,  
+  }, 
+
+--- page 50 ---
+50 
+ 
+  incomeBtn: {  
+    paddingHorizontal: 20,  
+    paddingVertical: 10,  
+    backgroundColor: colors.GREEN,  
+    borderRadius: 5,  
+    flex: 1,  
+  }, 
+  expenseBtn: {  
+    paddingHorizontal: 20,  
+    paddingVertical: 10,  
+    backgroundColor: colors.RED,  
+    borderRadius: 5,  
+    flex: 1,  
+  }, 
+  btnTxt: {  
+    textAlign: "center",  
+    fontFamily: "Montserrat -bold",  
+    fontSize: 16,  
+    color: colors.WHITE1,  
+  }, 
+                         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- page 51 ---
+51 
+ 
+B. SCREENSHOTS  
+ 
+WELCOME PAGE   
+ 
+Figure B.1. Welcome page  
+LOGIN PAGE  
+ 
+ 
+ 
+                                           Figure B. 2 User /approver login  
+ 
+  
+
+
+--- page 52 ---
+52 
+ 
+REGIST RATION  PAGE  
+ 
+ 
+                                           Figure B. 3  Registration  form  
+     
+ 
+DASHBOARD  
+ 
+                                            Figure B. 4 Home  page  
+ 
+
+
+--- page 53 ---
+53 
+ 
+ 
+ 
+                                         Figure B. 5 collection s view  
+ 
+ 
+ADD INCOME AND EXPENSE  
+ 
+ 
+Figure B. 6 Income Table view  
+
+
+--- page 54 ---
+54 
+ 
+ 
+Figure B. 7. Income Page  
+ 
+ 
+Figure B. 8. Expense Table  
+ 
+
+
+--- page 55 ---
+55 
+ 
+BUDGET MODULE  
+  
+ 
+Figure B. 9. Budget Page  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 56 ---
+56 
+ 
+CATEGORY MODULE  
+ 
+ 
+Figure B. 10. Category table  
+ 
+Figure B.1 1. Category items table  
+
+
+--- page 57 ---
+57 
+ 
+PROFILE MODULE  
+ 
+Figure B.1 2. Profile Page  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- page 58 ---
+58 
+ 
+CHAPTER 7  
+                  REFERENCES  
+ 
+Book References  
+ "Personal  Finance For Dummies" by Eric Tyson  
+ "Designing Interfaces" by Jenifer Tidwell  
+ "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. 
+Martin  
+ "JavaScript: The Good Parts" by Douglas Crockford  
+ "Full -Stack React Projects" by Shama Hoque  
+ 
+Web Ref erences  
+ W3Schools: Budgeting Concepts  
+ MDN Web Docs  
+ https://supabase.com/docs/guides/getting -started/tutorials/with -expo -react -
+native  
+ https://supabase.com/docs/guides/auth/quickstarts/react -native  
+ 

@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/api/v1/(.*)",
+            "destination": "/backend/src/index.js"
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "/backend/src/index.js"
+        },
+        {
+            "source": "/(.*).js",
+            "destination": "/frontend-new/dist/$1.js"
+        },
+        {
+            "source": "/(.*).css",
+            "destination": "/frontend-new/dist/$1.css"
+        },
+        {
+            "source": "/assets/(.*)",
+            "destination": "/frontend-new/dist/assets/$1"
+        },
+        {
+            "source": "/((?!api/).*)",
+            "destination": "/frontend-new/dist/index.html"
+        }
+    ],
+    "functions": {
+        "backend/src/index.js": {
+            "runtime": "vercel-node@latest",
+            "memory": 1024,
+            "maxDuration": 10
+        }
+    }
+}

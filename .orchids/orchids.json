@@ -1,0 +1,10 @@
+{
+  "projectId": "b58d5ec1-d95f-43d8-93e1-b3f162a9cdb8",
+  "createdAt": 1771217081459,
+  "version": "1.0",
+  "startupCommands": [
+    "cd sri-ram-fashion-app/backend; npm install; node src/index.js",
+    "cd sri-ram-fashion-app/frontend-new; npm install; npx vite --port 5173"
+  ],
+  "templateId": "any"
+}
